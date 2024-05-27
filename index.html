@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <hero>
+                <div class="slider">
+                        <div class="wrapper">
+                        <!-- This is where the javascript will create the hero slides
+                        with the json data for each element -->
+                        <h2 id="slideText">
+                            test
+                        </h2>
+                        </div>
+                        <button class ="arrow" id="prevButton">&#8592;</button>
+                        <button class ="arrow" id="nextButton">&#8594;</button>
+                </div>
+            </hero>
+            <form>
+                <label for="name">Game Name:</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="logo">Image:</label>
+                <input type="text" id="logo" name="logo" required>
+              
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" required>
+              
+                <label for="comments">Comments:</label>
+                <input type="text" id="comments" name="comments" required>
+              
+                <button type="submit">Submit</button>
+              </form>
+        </main>
+        <script src="index.js" async defer></script>
+        <script src="https://w.soundcloud.com/player/api.js"></script>
+    </body>
+</html>
