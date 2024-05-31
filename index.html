@@ -11,31 +11,46 @@
     </head>
     <body>
         <main>
+            <header>
+                <h3>Monsters of Hyrule</h3>
+              </header>
+            
+              
+              <div id="tile">
+              
+              </div>
             <hero>
                 <div class="slider">
-                        <div class="wrapper">
+                        <div class="wrapper" style="background-image: none;">
                         <!-- This is where the javascript will create the hero slides
                         with the json data for each element -->
                         <h2 id="slideText">
                             test
                         </h2>
+                        <h2 id="slideCategory">
+                            test
+                        </h2>
+                        <p id="slideDescription">
+                            test
+                        </p>
+                        <button class ="arrow" id="fsButton">Enlarge</button>
                         </div>
                         <button class ="arrow" id="prevButton">&#8592;</button>
                         <button class ="arrow" id="nextButton">&#8594;</button>
                 </div>
             </hero>
             <form>
-                <label for="name">Game Name:</label>
+                <label for="name">Scary Enemy:</label>
                 <input type="text" id="name" name="name" required>
               
                 <label for="logo">Image:</label>
                 <input type="text" id="logo" name="logo" required>
               
-                <label for="rating">Rating:</label>
-                <input type="number" id="rating" name="rating" required>
+                <label for="category">Category</label>
+                <input type="text" id="category" name="category" required>
               
-                <label for="comments">Comments:</label>
-                <input type="text" id="comments" name="comments" required>
+                <label for="description">Comments:</label>
+                <input type="text" id="description" name="description" required>
               
                 <button type="submit">Submit</button>
               </form>
